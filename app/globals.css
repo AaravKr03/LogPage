@@ -1,19 +1,11 @@
 @import "tailwindcss";
 
-/* Palette sampled from the reference image */
-@theme {
-  --color-meadow: #70cb6b; /* flat desktop green */
-  --color-cream: #f7f2e3; /* window surface */
-  --color-ink: #1d1d1b; /* outlines + hard shadows */
-  --color-ink-mute: #a9a597; /* inactive labels */
-}
-
 body {
-  background: #70cb6b;
-  color: #1d1d1b;
-  font-family: "Space Mono", ui-monospace, Menlo, Consolas, monospace;
+  min-height: 100vh;
+  background: #04170f; /* shown until the video loads */
+  color: #ffffff;
+  font-family: "Cascadia Mono", Consolas, ui-monospace, Menlo, monospace;
 }
-
 
 .cursor {
   animation: blink 1.1s steps(1) infinite;
@@ -27,4 +19,8 @@ body {
   .cursor {
     animation: none;
   }
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
 }
