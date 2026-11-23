@@ -2,10 +2,11 @@
 
 A terminal-style website with **real authentication**. Visitors register and log in by typing in a frosted-glass terminal window floating over an animated gradient, then see a members list ("contracts") loaded from a Postgres database.
 
+**Live demo:** <https://log-page-wheat.vercel.app>
+
 **Stack:** Next.js · React · TypeScript · Tailwind CSS · Supabase Auth + Postgres (with Row Level Security) · Vercel
 
-<!-- Add a screenshot: save it as docs/screenshot.png, then uncomment the next line -->
-<!-- ![V1YKsBuilds screenshot](docs/screenshot.png) -->
+![V1YKsBuilds terminal window over an animated background](docs/screenshot.png)
 
 ## Features
 
